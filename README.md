@@ -14,3 +14,6 @@ df['data_hora'] = pd.to_datetime(df['data_inversa'] + ' ' + df['horario'])
 # Salvando arquivo
 df.to_csv('acidentesPRF2020.csv', sep = ',')
 
+#Link da Platafaorma Keple.gl
+https://kepler.gl/demo
+
